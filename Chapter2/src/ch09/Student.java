@@ -1,5 +1,5 @@
 package ch09;
-// ÂüÁ¶ ÀÚ·áÇü º¯¼ö
+// ï¿½ï¿½ï¿½ï¿½ ï¿½Ú·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 public class Student {
 	
@@ -8,7 +8,7 @@ public class Student {
 	
 	Subject math;
 	Subject korea;
-	
+	String ZZ;
 	Student(int studentId ,String studentName ){
 		this.studentId = studentId;
 		this.studentName = studentName;
@@ -27,7 +27,7 @@ public class Student {
 	}
 	public void showScoreInfo() {
 		int total = korea.score + math.score;
-		System.out.println(studentName + "ÇÐ»ýÀÇ ÃÑÁ¡Àº " + total +" ÀÔ´Ï´Ù.");
+		System.out.println(studentName + "ï¿½Ð»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ " + total +" ï¿½Ô´Ï´ï¿½.");
 	}
 	
 	
